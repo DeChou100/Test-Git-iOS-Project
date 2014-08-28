@@ -21,6 +21,7 @@
 		CCF860B919AF01DE0040159A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF8609B19AF01DD0040159A /* UIKit.framework */; };
 		CCF860C119AF01DE0040159A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF860BF19AF01DE0040159A /* InfoPlist.strings */; };
 		CCF860C319AF01DE0040159A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF860C219AF01DE0040159A /* Git_TestTests.m */; };
+		CCF860CE19AF05780040159A /* GTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF860CD19AF05780040159A /* GTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CCF860BE19AF01DE0040159A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		CCF860C019AF01DE0040159A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCF860C219AF01DE0040159A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		CCF860CC19AF05780040159A /* GTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTest.h; sourceTree = "<group>"; };
+		CCF860CD19AF05780040159A /* GTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				CCF860A919AF01DE0040159A /* Main.storyboard */,
 				CCF860AC19AF01DE0040159A /* GTViewController.h */,
 				CCF860AD19AF01DE0040159A /* GTViewController.m */,
+				CCF860CC19AF05780040159A /* GTTest.h */,
+				CCF860CD19AF05780040159A /* GTTest.m */,
 				CCF860AF19AF01DE0040159A /* Images.xcassets */,
 				CCF8609E19AF01DD0040159A /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				CCF860A419AF01DD0040159A /* main.m in Sources */,
 				CCF860AE19AF01DE0040159A /* GTViewController.m in Sources */,
+				CCF860CE19AF05780040159A /* GTTest.m in Sources */,
 				CCF860A819AF01DD0040159A /* GTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
